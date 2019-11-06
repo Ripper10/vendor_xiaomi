@@ -245,4 +245,7 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    WfdCommon
+    QPerformance \
+    UxPerformance \
+    WfdCommon \
+    libplatformconfig
