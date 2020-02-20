@@ -232,7 +232,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/lib/modules/rmnet_shs.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/rmnet_shs.ko \
     vendor/xiaomi/raphael/proprietary/lib/modules/tspp.ko:$(TARGET_COPY_OUT_SYSTEM)/lib/modules/tspp.ko \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so \
+    vendor/xiaomi/raphael/proprietary/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
+    vendor/xiaomi/raphael/proprietary/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
+
 
 PRODUCT_PACKAGES += \
     SoterService \
